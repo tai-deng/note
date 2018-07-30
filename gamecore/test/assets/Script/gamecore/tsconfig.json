@@ -1,0 +1,41 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "ES6",
+        "strict": false, 
+        "noImplicitAny": false,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "sourceMap": false,
+        // "inlineSourceMap":true,
+        // "inlineSources":false,
+        "skipLibCheck":true,
+        "allowJs": false,
+        "outDir": "../test/assets/Script/gamecore",
+        "declaration":true,
+        "declarationDir": "../test/assets/Script/gamecore/d",
+        "experimentalDecorators":true,
+        // "outFile":"../deergamecore.js",
+        // "noEmitOnError":true
+    },
+
+    "include": [
+        "components/*",
+        "legs/*",
+        "managers/*",
+        "managers/**/*",
+        "scene/*",
+        "wechat/*",
+        "wechat/**/*",
+        "shader/*",
+        "xiaoyaoji/*",
+        // "shader/*",
+    ],
+
+    "files": [
+        "wx.d.ts",
+        "shader.d.ts",
+        "creator.d.ts",
+        // "GameCoreEvent.ts"
+    ]
+}
